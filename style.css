@@ -1,0 +1,198 @@
+h1{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align:center;
+}
+
+.created{
+    text-align:center;
+
+}
+
+.firstRow{
+    margin-left:25%;
+}
+
+.secondRow{
+    margin-left:33.3%;
+    margin-top:2%;
+    margin-right:auto;
+    margin-bottom:2%;
+}
+
+.content{
+    padding:20px;
+    border-color:black;
+    border-radius: 5px;
+    border-width:3px;
+}
+
+.content:focus{
+    padding:20px;
+    border-color:black;
+    border-radius: 5px;
+    border-width:3px;
+    box-shadow: 0 20px 20px 0 gray;
+}
+
+.content:hover{
+    padding:20px;
+    border-color:black;
+    border-radius: 5px;
+    border-width:3px;
+    box-shadow: 0 20px 20px 0 gray;
+}
+
+label{
+    color:black;
+    font-size:20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding:5px;
+    letter-spacing: 1px;
+}
+
+button{
+    margin: 2% auto 2% 40%;
+    width:250px;
+    padding:15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 5px;
+}
+
+button:hover{
+    margin: 2% auto 2% 40%;
+    width:250px;
+    padding:15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+    background-color: black;
+    box-shadow: 0 20px 20px 0 gray;
+    box-sizing: 10px;
+    border-radius: 5px;
+}
+
+.information{
+    border-style:solid;
+    border-color:black;
+    border:2px 2px 0px 2px;
+    margin:50px;
+    overflow:hidden;
+    border-radius: 5px;
+}
+
+.information:hover{
+    box-shadow: 15px 15px 15px 0px gray;
+}
+
+img{
+    height:auto;
+    width:275px;
+    border-style:solid;
+    border-color:black;
+    margin:20px;
+    border-radius: 5px;
+    border-width:2px;
+    float:left;
+    box-shadow: 10px 10px 10px 0px gray;
+}
+
+.textClass{
+    float:left;
+}
+
+.div2{
+    width:70%;
+    float:right;
+    padding:10px;
+}
+
+.titleCon{
+    font-family: Impact, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width:70%;
+}
+
+.snippetCon{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    width:70%;
+}
+
+.authorCon{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    width:70%;
+}
+
+#pubYear{
+    width:150%;
+}
+
+.scrollToTop{
+    width:100px; 
+    height:130px;
+    padding:20px; 
+    margin-top:10px;
+    font-size:22px;
+    text-align:center; 
+    background: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    border-radius: 5px;
+    position:fixed;
+    bottom:75px;
+    right:40px;
+    display:none;
+    
+}
+.scrollToTop:hover{
+    color: white;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 640px) {
+    .secondRow{
+        margin-left:30%;
+    }
+    button{
+        margin-left:28%;
+    }
+    button:hover{
+        margin-left:28%;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .secondRow{
+        margin-left:30%;
+    }
+    button{
+        margin-left:31%;
+    }
+    button:hover{
+        margin-left:31%;
+    }
+    
+}
+
+@media screen and (max-width: 980px) {
+    #searchOpt{
+        margin-top:10%;
+    }
+    #locationOpt{
+        width:150%;
+        margin-top:17%;
+    }
+    .secondRow{
+        margin-left:30%;
+    }
+    button{
+        margin-left:35%;
+    }
+    button:hover{
+        margin-left:35%;
+    }
+    
+} 
