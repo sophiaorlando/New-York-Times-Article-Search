@@ -27,7 +27,8 @@
 
 ## Demo: 
 
-![gsdfs] images/NYTSearch.gif
+![gsdfs] New-York-Times-Article-Search/images/NYTSearch.gif
+
 
 
 
