@@ -27,7 +27,9 @@
 
 ## Demo: 
 
-![gsdfs] images/NYTSearch.gif
+![NYTSearch](https://user-images.githubusercontent.com/66695379/91615571-e281c680-e951-11ea-89e1-be35c4b5bb5e.gif)
+
+
 
 
 
