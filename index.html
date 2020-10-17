@@ -80,6 +80,7 @@
         $(document).ready(function () {
             $("form").on("submit", function (event) {
                 event.preventDefault()
+                console.log("Don't try to lessen yourself for the world. Let the world catch up to you. -Beyonce")
 
             // values for input fields 
                 var search = $("#searchTerm").val()
@@ -137,7 +138,6 @@
                         newDiv.append(authorP)
                         articleDiv.append(imageEl)
                         articleDiv.append(newDiv)
-                        console.log(response)
 
             // articles being appended to the screen 
 
@@ -147,7 +147,6 @@
 
                         articleDiv.on("click", function () {
                             var url = $(this).attr("data-url")
-                            console.log(url)
                             window.open(url)
                         })
                     }
