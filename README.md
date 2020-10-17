@@ -1,6 +1,6 @@
 # New York Times Article Search
 
-### This project aims to allow users an accessible way to search for articles published by the New York Times. 
+### This website aims to allow users an accessible way to search for articles published by the New York Times. It matches the input fields with keywords in the title of New York Times published articles.
 
 ## Languages Used:
 * HTML
